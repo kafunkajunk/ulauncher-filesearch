@@ -1,0 +1,33 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Demo",
+  "description": "Demo extension",
+  "developer_name": "Aleksandr Gornostal",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "demo_kw",
+      "type": "keyword",
+      "name": "Demo",
+      "default_value": "dm"
+    },
+    {
+      "id": "fi_path",
+      "type": "input",
+      "name": "File Index",
+      "description": "Path to file index to search files and directories",
+      "default_value": "$HOME/home.db"
+    },
+    {
+
+      "id": "blacklist",
+      "type": "text",
+      "name": "Black list",
+      "description": "Collection of paths to exclude when searching files and directories",
+      "default_value": ""
+    }
+  ]
+}
