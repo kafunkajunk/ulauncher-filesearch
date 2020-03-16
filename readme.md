@@ -3,7 +3,7 @@
 
 # Summary
 
-This project is a python plugin for [https://ulauncher.io/](ulauncher).
+This project is a python plugin for [ulauncher](https://ulauncher.io/).
 
 It provides similar file searching functionality to Alfred and Spotlight by utilizing `updatedb` and `mlocate`.
 
@@ -20,5 +20,5 @@ This plugin needs a path to a db file which contains any relevant indexed files 
 
 # Notices
 
-Icon is from papirus icon set [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](here)
+Icon is from papirus icon set [here](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
