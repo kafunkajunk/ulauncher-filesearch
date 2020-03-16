@@ -37,7 +37,7 @@ class KeywordQueryEventListener(EventListener):
 
         logger.info('query %s' % query)
         logger.info('db_path %s' % db_path)
-        result = subprocess.run(["mlocate", "-i", "-b", "-l", "5", "-d", "/home/kafunkajunk/home.db", query], capture_output=True, text=True)
+        result = subprocess.run(["mlocate", "-i", "-b", "-l", "5", "-d", db_path, query], capture_output=True, text=True)
         result = result.stdout.splitlines()
         range_len = len(result) if len(result) <= 5 else 5
 
